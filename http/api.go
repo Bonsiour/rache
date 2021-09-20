@@ -1,9 +1,9 @@
 package http
 
 import (
+	"github.com/Bonsiour/rache/kv"
 	"io"
 	"net/http"
-	"rache/kv"
 )
 
 var GetHandler = func(w http.ResponseWriter, r *http.Request) {

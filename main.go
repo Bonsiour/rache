@@ -2,15 +2,15 @@ package main
 
 import (
 	"flag"
+	"github.com/Bonsiour/rache/conf"
+	"github.com/Bonsiour/rache/http"
+	"github.com/Bonsiour/rache/kv"
+	"github.com/Bonsiour/rache/raft"
 	"google.golang.org/grpc"
 	"log"
 	"net"
 	"os"
 	"os/signal"
-	"rache/conf"
-	"rache/http"
-	"rache/kv"
-	"rache/raft"
 	"time"
 )
 
